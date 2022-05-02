@@ -1,0 +1,40 @@
+body{
+    background-image: url("/img/Background-Fade1.jpg");
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+#me{
+    width: 200px;
+    height: 230px;
+}
+#border-me{
+    border-radius: 25px;
+}
+#name h1{
+    max-width: 235px;
+    color: rgb(8, 8, 8);
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .13em solid rgb(0, 0, 0); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .75s step-end infinite;
+}
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 0, 0) }
+}
+
+#socials h2{
+    text-align: center;
+  }
