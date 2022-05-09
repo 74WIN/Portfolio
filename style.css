@@ -1,12 +1,29 @@
 main{
-    background-color: lightblue;
+    background: linear-gradient(-30deg, rgb(59, 216, 255), rgb(92, 157, 255), rgb(177, 94, 255), rgb(202, 123, 255));
     font-family: monospace;
     justify-content: center;
+    position: relative;
+    background-size: 200% 200%;
+    animation: change 5s ease-in-out infinite ;
 }
 
-@keyframes body {
-  from {background-color: lightblue;}
-  to {background-color: rgb(80, 130, 161);}
+@keyframes change {
+  0%{
+    background-position: 0%  0%;
+  }
+
+  25%{
+    background-position: 50%  50%;
+  }
+  50%{
+    background-position: 100% 100%;
+  }
+  75%{
+    background-position: 50%  50%;
+  }
+  100%{
+    background-position: 0%  0%;
+  }
 }
 
 #me{
