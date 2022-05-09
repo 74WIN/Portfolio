@@ -41,12 +41,7 @@ h2{
       blink-caret .75s step-end infinite;
 }
   
-#aboutMe{
-  width: 350px;
-  margin: auto;
-  padding: 10px;
 
-}
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
