@@ -1,10 +1,13 @@
+body{
+  background: linear-gradient(-30deg, rgb(59, 216, 255), rgb(92, 157, 255), rgb(177, 94, 255), rgb(202, 123, 255));
+  animation: change 5s ease-in-out infinite ;
+  position: relative;
+  background-size: 200% 200%;
+}
 main{
-    background: linear-gradient(-30deg, rgb(59, 216, 255), rgb(92, 157, 255), rgb(177, 94, 255), rgb(202, 123, 255));
     font-family: monospace;
     justify-content: center;
-    position: relative;
-    background-size: 200% 200%;
-    animation: change 5s ease-in-out infinite ;
+
 }
 
 @keyframes change {
@@ -13,13 +16,13 @@ main{
   }
 
   25%{
-    background-position: 50%  50%;
+    background-position: 50%  25%;
   }
   50%{
-    background-position: 100% 100%;
+    background-position: 100% 0%;
   }
   75%{
-    background-position: 50%  50%;
+    background-position: 50%  25%;
   }
   100%{
     background-position: 0%  0%;
