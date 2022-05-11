@@ -1,28 +1,43 @@
-main{
+body{
     background: linear-gradient(-30deg, rgb(59, 216, 255), rgb(92, 157, 255), rgb(177, 94, 255), rgb(202, 123, 255));
     font-family: monospace;
     justify-content: center;
     position: relative;
-    background-size: 200% 200%;
+    background-size: 400% 400%;
     animation: change 5s ease-in-out infinite ;
+}
+
+main{
+}
+
+.mySections{
+}
+
+.btn{
+  background-color: aqua;
+}
+
+button{
+  width: 275px;
+  
 }
 
 @keyframes change {
   0%{
-    background-position: 0%  0%;
+    background-position: 20%  20%;
   }
 
   25%{
-    background-position: 50%  50%;
+    background-position: 30%  30%;
   }
   50%{
-    background-position: 100% 100%;
+    background-position: 75% 75%;
   }
   75%{
     background-position: 50%  50%;
   }
   100%{
-    background-position: 0%  0%;
+    background-position: 20%  20%;
   }
 }
 
@@ -35,15 +50,44 @@ main{
     width: 300px;
 }
 
+#intro{
+  width: 500px;
+  border-radius: 25px;
+}
+
 section{
-  padding-top: 20px;
-  text-align: center;
+ margin: auto;
+}
+
+.card{
+  width: 275px;
 }
 
 h2{
   text-align: center;
   margin-bottom: 10px;
 }
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
 
 #name h1{
     max-width: 250px;
