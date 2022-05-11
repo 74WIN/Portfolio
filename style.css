@@ -28,13 +28,13 @@ button{
   }
 
   25%{
-    background-position: 30%  30%;
+    background-position: 50%  30%;
   }
   50%{
     background-position: 75% 75%;
   }
   75%{
-    background-position: 50%  50%;
+    background-position: 50%  30%;
   }
   100%{
     background-position: 20%  20%;
