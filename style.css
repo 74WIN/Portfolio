@@ -68,6 +68,9 @@ section{
 .card{
   width: 275px;
 }
+#projectCard{
+  width: 50vw;
+}
 
 h2{
   text-align: center;
