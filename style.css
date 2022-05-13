@@ -61,11 +61,7 @@ section{
  margin: auto;
 }
 
-.card-50{
-  width: 500px;
-}
-
-.card{
+.cardWidth{
   width: 275px;
 }
 #projectCard{
