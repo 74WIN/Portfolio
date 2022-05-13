@@ -1,10 +1,10 @@
 body{
-    background: linear-gradient(-30deg, rgb(59, 216, 255), rgb(92, 157, 255), rgb(177, 94, 255), rgb(202, 123, 255));
+    background: linear-gradient(-30deg, rgb(59, 255, 141), rgb(59, 255, 180), rgb(59, 216, 255), rgb(92, 157, 255), rgb(177, 94, 255), rgb(202, 123, 255));
     font-family: monospace;
     justify-content: center;
     position: relative;
     background-size: 400% 400%;
-    animation: change 5s ease-in-out infinite ;
+    animation: change 4s ease-in-out infinite ;
 }
 
 main{
@@ -31,7 +31,7 @@ button{
     background-position: 50%  30%;
   }
   50%{
-    background-position: 75% 75%;
+    background-position: 80% 80%;
   }
   75%{
     background-position: 50%  30%;
@@ -46,17 +46,23 @@ button{
     height: 230px;
 }
 #border-me{
+    
     border-radius: 25px;
     width: 300px;
 }
 
 #intro{
+  margin-top: 10px;
   width: 500px;
   border-radius: 25px;
 }
 
 section{
  margin: auto;
+}
+
+.card-50{
+  width: 500px;
 }
 
 .card{
@@ -68,20 +74,22 @@ h2{
   margin-bottom: 10px;
 }
 
+
 /* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
 
 /* Container for skill bars */
-.container {
-  width: 100%; /* Full width */
+.Skillcontainer {
+  border-radius: 25px;
+  width: 100%;
   background-color: #ddd; /* Grey background */
 }
 
 .skills {
-  text-align: right; /* Right-align text */
-  padding-top: 10px; /* Add top padding */
-  padding-bottom: 10px; /* Add bottom padding */
-  color: white; /* White text color */
+  border-radius: 25px;
+  text-align: right;
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+  color: white; 
 }
 
 .html {width: 90%; background-color: #04AA6D;} /* Green */
