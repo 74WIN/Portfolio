@@ -73,9 +73,6 @@ h2{
   margin-bottom: 10px;
 }
 
-
-/* Make sure that padding behaves as expected */
-
 /* Container for skill bars */
 .Skillcontainer {
   border-radius: 25px;
@@ -89,12 +86,22 @@ h2{
   padding-top: 5px; 
   padding-bottom: 5px; 
   color: white; 
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,0,255,1) 0%, rgba(111,0,255,1) 25%, rgba(16,0,255,1) 50%, rgba(0,189,255,1) 75%, rgba(0,255,171,1) 100%);
+
 }
 
-.html {width: 90%; background-color: #04AA6D;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.html {
+  width: 90%;
+} /* Green */
+.css {
+  width: 80%;
+} /* Blue */
+.js {
+  width: 65%;
+} /* Red */
+.php {
+  width: 60%;
+} /* Dark Grey */
 
 #name h1{
     max-width: 250px;
