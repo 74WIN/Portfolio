@@ -64,6 +64,7 @@ section{
 .cardWidth{
   width: 275px;
 }
+
 #projectCard{
   width: 50vw;
 }
@@ -80,6 +81,7 @@ h2{
   background-color: #ddd; /* Grey background */
 }
 
+/* skillbar */
 .skills {
   border-radius: 25px;
   text-align: right;
