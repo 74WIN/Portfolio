@@ -59,15 +59,59 @@ button{
 
 section{
  margin: auto;
+ 
+}
+
+.projectButton{
+  background-color: rgb(100, 100, 255);
+  border-radius: 20px;
+  margin-top: 20px;
+  transition-duration: 0.3s;
+  border:solid
+}
+.projectButton:hover{
+  background-color: rgb(149, 149, 255);
+  transition-duration: 0.3s;
+}
+
+
+#projectCard{
+  margin: auto;
+  border: solid;
+  display: flex;
+  flex-wrap: wrap;
+  width: 75vw;
+  background-color: white;
+}
+
+#projectCard .projects{
+  
+}
+
+
+.projects{
+  border: solid;
+  width: 350px;
+  height: 300px;
+  padding-top: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.projectImage{
+  width: 300px;
+  height: 200px;
+  border: solid;
+
+}
+.modal-body{
+
 }
 
 .cardWidth{
   width: 275px;
 }
 
-#projectCard{
-  width: 50vw;
-}
 
 h2{
   text-align: center;
@@ -94,16 +138,16 @@ h2{
 
 .html {
   width: 90%;
-} /* Green */
+} 
 .css {
   width: 80%;
-} /* Blue */
+} 
 .js {
   width: 65%;
-} /* Red */
+} 
 .php {
   width: 60%;
-} /* Dark Grey */
+} 
 
 #name h1{
     max-width: 250px;
