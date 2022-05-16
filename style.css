@@ -41,7 +41,7 @@ width: 275px;
 }
 
 #me{
-  width: 200px;
+  width: 190px;
   height: 230px;
 }
 #border-me{
@@ -51,9 +51,9 @@ width: 275px;
 }
 
 #intro{
-margin-top: 10px;
-width: 450px;
-border-radius: 25px;
+  margin-top: 10px;
+  width: 450px;
+  border-radius: 25px;
 }
 
 section{
@@ -64,7 +64,7 @@ section{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- padding: 10px;
+  padding: 10px;
 }
 
 #aboutMe #Socials #Skill{
