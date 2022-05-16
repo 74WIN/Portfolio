@@ -8,6 +8,8 @@ body{
 }
 
 main{
+  justify-content: center;
+  
 }
 
 .btn{
@@ -50,14 +52,27 @@ width: 275px;
 
 #intro{
 margin-top: 10px;
-width: 500px;
+width: 450px;
 border-radius: 25px;
 }
 
 section{
-margin: auto;
 
 }
+
+#mySections{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ padding: 10px;
+}
+
+#aboutMe #Socials #Skill{
+margin: 10px;
+ 
+}
+
+
 
 .projectButton{
 background-color: rgb(100, 100, 255);
@@ -179,4 +194,13 @@ width: 60%;
 #name h1{
   max-width: 150px;
 }
+#mySections{
+  width: 100px;
+  margin-bottom: 10px;
+  
+}
+#intro{
+  width: 300px;
+}
+
 }
