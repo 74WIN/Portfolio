@@ -1,104 +1,104 @@
 body{
-    background: linear-gradient(-30deg, rgb(59, 255, 141), rgb(59, 255, 180), rgb(59, 216, 255), rgb(92, 157, 255), rgb(177, 94, 255), rgb(202, 123, 255));
-    font-family: monospace;
-    justify-content: center;
-    position: relative;
-    background-size: 400% 400%;
-    animation: change 4s ease-in-out infinite ;
+  background: linear-gradient(-30deg, rgb(59, 255, 141), rgb(59, 255, 180), rgb(59, 216, 255), rgb(92, 157, 255), rgb(177, 94, 255), rgb(202, 123, 255));
+  font-family: monospace;
+  justify-content: center;
+  position: relative;
+  background-size: 400% 400%;
+  animation: change 4s ease-in-out infinite ;
 }
 
 main{
 }
 
 .btn{
-  background-color: aqua;
+background-color: aqua;
 }
 
 button{
-  width: 275px;
-  
+width: 275px;
+
 }
 
 @keyframes change {
-  0%{
-    background-position: 20%  20%;
-  }
+0%{
+  background-position: 20%  20%;
+}
 
-  25%{
-    background-position: 50%  30%;
-  }
-  50%{
-    background-position: 80% 80%;
-  }
-  75%{
-    background-position: 50%  30%;
-  }
-  100%{
-    background-position: 20%  20%;
-  }
+25%{
+  background-position: 50%  30%;
+}
+50%{
+  background-position: 80% 80%;
+}
+75%{
+  background-position: 50%  30%;
+}
+100%{
+  background-position: 20%  20%;
+}
 }
 
 #me{
-    width: 200px;
-    height: 230px;
+  width: 200px;
+  height: 230px;
 }
 #border-me{
-    
-    border-radius: 25px;
-    width: 300px;
+  
+  border-radius: 25px;
+  width: 300px;
 }
 
 #intro{
-  margin-top: 10px;
-  width: 500px;
-  border-radius: 25px;
+margin-top: 10px;
+width: 500px;
+border-radius: 25px;
 }
 
 section{
- margin: auto;
- 
+margin: auto;
+
 }
 
 .projectButton{
-  background-color: rgb(100, 100, 255);
-  border-radius: 20px;
-  margin-top: 20px;
-  transition-duration: 0.3s;
-  border:solid
+background-color: rgb(100, 100, 255);
+border-radius: 20px;
+margin-top: 20px;
+transition-duration: 0.3s;
+border:solid
 }
 .projectButton:hover{
-  background-color: rgb(149, 149, 255);
-  transition-duration: 0.3s;
+background-color: rgb(149, 149, 255);
+transition-duration: 0.3s;
 }
 
 
 #projectCard{
-  margin: auto;
-  border: solid;
-  display: flex;
-  flex-wrap: wrap;
-  width: 75vw;
-  background-color: white;
+margin: auto;
+border: solid;
+display: flex;
+flex-wrap: wrap;
+width: 75vw;
+background-color: white;
 }
 
 #projectCard .projects{
-  
+
 }
 
 
 .projects{
-  border: solid;
-  width: 350px;
-  height: 300px;
-  padding-top: 20px;
-  margin: auto;
-  margin-bottom: 20px;
+border: solid;
+width: 350px;
+height: 300px;
+padding-top: 20px;
+margin: auto;
+margin-bottom: 20px;
 }
 
 .projectImage{
-  width: 300px;
-  height: 200px;
-  border: solid;
+width: 300px;
+height: 200px;
+border: solid;
 
 }
 .modal-body{
@@ -106,77 +106,77 @@ section{
 }
 
 .cardWidth{
-  width: 275px;
+width: 275px;
 }
 
 
 h2{
-  text-align: center;
-  margin-bottom: 10px;
+text-align: center;
+margin-bottom: 10px;
 }
 
 /* Container for skill bars */
 .Skillcontainer {
-  border-radius: 25px;
-  width: 100%;
-  background-color: #ddd; /* Grey background */
+border-radius: 25px;
+width: 100%;
+background-color: #ddd; /* Grey background */
 }
 
 /* skillbar */
 .skills {
-  border-radius: 25px;
-  text-align: right;
-  padding-top: 5px; 
-  padding-bottom: 5px; 
-  color: white; 
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,0,255,1) 0%, rgba(111,0,255,1) 25%, rgba(16,0,255,1) 50%, rgba(0,189,255,1) 75%, rgba(0,255,171,1) 100%);
+border-radius: 25px;
+text-align: right;
+padding-top: 5px; 
+padding-bottom: 5px; 
+color: white; 
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,0,255,1) 0%, rgba(111,0,255,1) 25%, rgba(16,0,255,1) 50%, rgba(0,189,255,1) 75%, rgba(0,255,171,1) 100%);
 
 }
 
 .html {
-  width: 90%;
+width: 90%;
 } 
 .css {
-  width: 80%;
+width: 80%;
 } 
 .js {
-  width: 65%;
+width: 65%;
 } 
 .php {
-  width: 60%;
+width: 60%;
 } 
 
 #name h1{
-    max-width: 250px;
-    color: rgb(8, 8, 8);
-    overflow: hidden; 
-    border-right: .13em solid rgb(0, 0, 0); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .10em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(30, end),
-      blink-caret .75s step-end infinite;
+  max-width: 250px;
+  color: rgb(8, 8, 8);
+  overflow: hidden; 
+  border-right: .13em solid rgb(0, 0, 0); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .75s step-end infinite;
 }
-  
 
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(0, 0, 0) }
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: rgb(0, 0, 0) }
 }
 
 
 @media only screen and (max-width: 375px) {
-  #border-me {
-    width: 300px
-  }
-  #name h1{
-    max-width: 150px;
-  }
+#border-me {
+  width: 300px
+}
+#name h1{
+  max-width: 150px;
+}
 }
