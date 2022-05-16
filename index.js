@@ -7,6 +7,7 @@ myModal.addEventListener('shown.bs.modal', function () {
   myInput.focus()
 })
 
+
 // let projects = [
 //     {
 //         name: "Sushi King Reservering systeem",
